@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(login_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+      scroll-behavior: smooth;
+  }
+  .loginbox{
+    width: 100%;
+  }
+  
+  
+  .loginbox{
+    width: 300px;
+    background:#fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 10px;
+  background-attachment: fixed;
+  }
+  
+  /*.avatar{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -15%;
+    left: calc(50% - 75px);
+  }*/
+  h1{
+    margin:0;
+    padding: 0 0 0;
+    text-align: center;
+    font-size: 22px;
+  }
+  .loginbox p{
+    margin-top: 10%;
+    padding: 0;
+    font-weight: bold;
+    height:12px
+  }
+  .loginbox input[type="submit"] {
+    width: 100%;
+    margin-bottom: 20px;
+  
+  }
+  .input-box{
+    margin: 1px auto;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .input-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000;
+  }
+  .eye{
+    position: absolute;
+    right:40px;
+  }
+  #hide1{
+    display: none;
+  }
+  .log{
+    margin-top: 10px
+  }
+  
+  .loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+  
+  }
+  
+  .loginbox a:hover{
+    color: red;}
+    .loginbox input.login-btn:hover{
+      background-color: #2E8B57	;}
+    input.login-btn{
+    background-color:lightblue;
+      color: #fff;
+      width: 100%;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      margin: 10px 0;
+      border: none;
+      outline:none;
+      cursor: pointer;
+    }
+    @media screen and (max-width:346px){
+      .loginbox{
+        width: 80%;
+      }
+  
+    }
+    @media screen and (max-height:609px){
+      .avatar{
+          top: -11%;
+      }
+      .loginbox{
+        height: auto;
+  
+    }
+    .login-btn{
+      background-color: crimson;
+    }.twitter-btn{
+      background-color: #21afde;
+    }
+    a{
+      text-decoration: none;
+    }
+    hr{
+      margin-top: 20px;
+      width: 80%;
+    }
+    .or{
+      background: #fff;
+      width: 30px;
+      margin:  -19px auto 10px;
+    }}

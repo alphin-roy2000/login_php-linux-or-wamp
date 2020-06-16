@@ -1,0 +1,110 @@
+body{
+  margin:0;
+  padding: 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+.sign-up-form{
+  width:100%;
+}
+.sign-up-form
+{
+
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background: #fff;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  background-attachment: fixed;
+}
+
+#hide1{display: none;}
+.eye{
+  position: absolute;
+  right:40px;
+}
+
+.sign-up-form h1{
+  color: #1c8abd;
+  margin-bottom: 30px;
+}
+.input-box1{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border:1px solid #999;
+  outline: none;
+
+}
+.input-box1 input{
+
+ width:100%;
+ border: none;
+ outline: none;
+
+}
+.input-box2{
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%;
+  border:1px solid #999;
+  outline: none;
+
+}
+.input-box2 input{
+ width:100%;
+ border: none;
+ outline: none;
+
+}
+input.btn{
+background-color:lightgreen;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+@media screen and (max-width:346px){
+  .sign-up-form{
+    width: 80%;
+  }
+}
+@media screen and (max-height:609px){
+  .sign-up-form{
+    height:auto;
+  }
+}
+.signup-btn{
+  background-color: #1c8adb;
+}
+.twitter-btn{
+  background-color: #21afde;
+}
+a{
+  text-decoration: none;
+}
+hr{
+  margin-top: 20px;
+  width: 80%;
+}
+.or{
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}

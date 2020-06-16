@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="loginbox">
+  <!-- <img src="images/avatar.png" class="avatar">-->
+     <h1>Login Here</h1>
+     <form method="post" action="l1.php">
+       <p>Username</p>
+       <div class="input-box">
+         <input type="text" name="usr" placeholder="Enter Username">
+     </div>
+     <p>Password</p>
+     <div class="input-box">
+       <input type="password" name="pwd" placeholder="Enter Password" maxlength="21" minlength="8" required  id="myInput">
+        <span class="eye" onclick="myFunction()">
+         <i id="hide1" class="fa fa-eye"></i>
+         <i id="hide2" class="fa fa-eye-slash"></i>
+        </span>
+     </div>
+     <div class="btn">
+      
+      <center><input type="submit" class="login-btn" name="sub" value="Login"/></center>
+       <a href="#">Lost Your password?</a><br>
+       <a href="signup.php">Don't have a Account?</a>
+    </div>
+    <script>
+    function myFunction(){
+      var x = document.getElementById("myInput");
+      var y = document.getElementById("hide1");
+      var z = document.getElementById("hide2");
+      if(x.type === 'password'){
+        x.type="text";
+        y.style.display="block";
+        z.style.display="none";}
+      else{
+        x.type="password";
+        y.style.display="none";
+        z.style.display="block";}}
+    </script>
+  </form>
+  </div>
+</body>
+</html>
